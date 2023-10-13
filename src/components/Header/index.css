@@ -1,0 +1,40 @@
+/* Header.css */
+
+.header-container {
+  background-color: #e6e6fa;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+}
+
+.text-style {
+  text-decoration: none;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header-container li {
+  margin: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-container li:hover {
+  text-decoration: underline;
+}

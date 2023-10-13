@@ -1,0 +1,48 @@
+/* SeatBooking.css */
+
+.seat-booking-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.seat-booking-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.seat-booking-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.seat-booking-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.seat-booking-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.seat-booking-container button:hover {
+  background-color: #0056b3;
+}
+
+.booking-message {
+  text-align: center;
+  color: #ff0000;
+  margin-top: 10px;
+}

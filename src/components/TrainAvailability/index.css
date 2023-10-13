@@ -1,0 +1,55 @@
+/* TrainAvailability.css */
+
+.train-availability-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.train-availability-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.train-availability-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.train-availability-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.train-availability-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.train-availability-container button:hover {
+  background-color: #0056b3;
+}
+
+.train-list {
+  margin-top: 20px;
+}
+
+.train {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
